@@ -1,0 +1,752 @@
+ * Serving Flask app 'back_serv'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4093
+ * Running on http://192.168.0.35:4093
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-140-635
+ERROR:__main__:face bbox服务失败: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:15:03] "[35m[1mPOST /facebbox HTTP/1.1[0m" 500 -
+ERROR:__main__:face bbox服务失败: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:18:01] "[35m[1mPOST /facebbox HTTP/1.1[0m" 500 -
+ERROR:__main__:face bbox服务失败: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:19:09] "[35m[1mPOST /facebbox HTTP/1.1[0m" 500 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:20:32] "POST /facebbox HTTP/1.1" 200 -
+ERROR:__main__:face bbox服务失败: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:22:50] "[35m[1mPOST /facebbox HTTP/1.1[0m" 500 -
+ERROR:__main__:face bbox服务失败: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:24:53] "[35m[1mPOST /facebbox HTTP/1.1[0m" 500 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:26:01] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:26:10] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:28:10] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:29:04] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:32:04] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:32:47] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:33:56] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:42:56] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:47:44] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 22:53:18] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 23:05:15] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 23:26:28] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 23:42:37] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 23:44:05] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 23:53:08] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 23:54:33] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [17/Oct/2024 23:54:52] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:00:39] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:05:35] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:05:52] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:06:52] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:07:24] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:10:43] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:11:05] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:14:29] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:23:19] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:24:55] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:25:12] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:27:57] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:28:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:28:59] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:29:12] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:31:27] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 00:34:56] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 01:10:32] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.253 - - [18/Oct/2024 01:15:32] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:08:02] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:08:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:10:58] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:13:34] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:16:40] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:18:54] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:39:38] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:42:15] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:52:03] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:52:08] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:55:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 09:58:42] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:02:30] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:02:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:06:03] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:06:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:09:19] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:09:35] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:19:18] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:23:13] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:23:34] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:38:09] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:38:20] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:39:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:54:02] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 10:54:20] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 11:04:03] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 11:04:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 11:07:49] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 11:59:50] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 12:04:37] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 12:05:00] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 12:14:14] "POST /facebbox HTTP/1.1" 200 -
+ERROR:werkzeug:124.70.25.74 - - [18/Oct/2024 13:13:37] code 400, message Bad request version ("WÒBeÚü\x8dô$lbNàM`k\x8eEµ±'$\x9f|\x8d\x87vwÍwár\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:124.70.25.74 - - [18/Oct/2024 13:13:37] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03*F¼BîBöÚ¾\x1d¹\x00|\x93a¯.]¾m±ÃÞ,\x1aøÑ¨Â¹RH WÒBeÚü\x8dô$lbNàM`k\x8eEµ±'$\x9f|\x8d\x87vwÍwár\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:124.70.25.74 - - [18/Oct/2024 13:13:37] code 400, message Bad request version ('ñ\x11\x04Öû½½¹cÔ$"Q¬å\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À\'\x00gÀ')
+INFO:werkzeug:124.70.25.74 - - [18/Oct/2024 13:13:37] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¤ÝI\x9csk©9*OX\x01\x07¶\x98\x9c)\x87jh\x82²¶\x91\x06\x8dù·l¯°þ <\x9dî)üÓ©Áø\x7fOG\x85¥«ð ñ\x11\x04Öû½½¹cÔ$"Q¬å\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:124.70.25.74 - - [18/Oct/2024 13:13:37] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:124.70.25.74 - - [18/Oct/2024 13:13:38] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:124.70.25.74 - - [18/Oct/2024 13:13:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 13:38:27] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 13:38:58] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:120.46.90.142 - - [18/Oct/2024 13:48:00] code 400, message Bad request version ("\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:120.46.90.142 - - [18/Oct/2024 13:48:00] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x854Ëýj\x97\x89å,iös0¾RøV!É\x82J%@¤F7dºïzýÊ 8]-,ÛÊÒêý§Ì^LA\x94Eeµý\x1a?\x16`\x9b\x12i_#\x11A(\x1e\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:120.46.90.142 - - [18/Oct/2024 13:48:44] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.46.90.142 - - [18/Oct/2024 13:48:44] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 13:58:00] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:00:01] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:02:13] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:02:34] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:27.115.124.109 - - [18/Oct/2024 14:04:09] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:14:51] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:16:02] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:18:57] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:20:42] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:23:11] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:23:32] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:28:26] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 14:28:40] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:__main__:提交任务失败: 1265 (01000): Data truncated for column 'task_type' at row 1
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 21:02:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 500 -
+INFO:werkzeug:162.142.125.219 - - [18/Oct/2024 21:22:45] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.219 - - [18/Oct/2024 21:22:45] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.219 - - [18/Oct/2024 21:22:45] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:__main__:提交任务失败: 1265 (01000): Data truncated for column 'task_type' at row 1
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 21:43:31] "[35m[1mPOST /submit_task HTTP/1.1[0m" 500 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 21:50:09] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 21:53:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 21:57:58] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 22:13:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 22:14:45] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 22:17:07] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 22:17:22] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [18/Oct/2024 22:31:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [19/Oct/2024 01:04:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [19/Oct/2024 01:06:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [19/Oct/2024 01:13:06] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [19/Oct/2024 01:52:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [19/Oct/2024 02:13:35] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [19/Oct/2024 02:15:48] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [19/Oct/2024 02:16:07] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 12:14:51] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 12:15:11] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 15:43:02] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 15:43:19] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 16:02:37] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 16:05:49] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 16:05:57] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 16:07:50] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 16:08:12] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 16:30:36] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 16:44:23] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:00:12] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:02:37] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:06:23] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:12:32] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:15:40] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:15:50] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:16:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:21:52] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:22:10] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:33:13] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:38:16] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:40:45] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 17:41:11] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 18:56:20] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 19:02:17] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 19:02:37] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 19:12:15] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.231.135.212 - - [20/Oct/2024 19:12:31] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:123.249.103.170 - - [20/Oct/2024 19:19:16] code 400, message Bad request version ("¤\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:123.249.103.170 - - [20/Oct/2024 19:19:16] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03EPWg\x11*¬,»\x1f©\x1d\x97Þ×Æl¹>l\x05ü(\x1a-­\x04íaL ¾ ô!\x01(`\x8dó8§ ëÀÄ\x91\x89¸<÷óÕâ´÷²·\x00Q\x1b\x8c\x94\x09¤\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:123.249.103.170 - - [20/Oct/2024 19:20:12] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:123.249.103.170 - - [20/Oct/2024 19:20:12] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:162.142.125.214 - - [21/Oct/2024 11:27:09] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.214 - - [21/Oct/2024 11:27:10] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.214 - - [21/Oct/2024 11:27:10] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:206.168.34.220 - - [23/Oct/2024 02:38:34] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.220 - - [23/Oct/2024 02:38:35] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.220 - - [23/Oct/2024 02:38:35] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 13:08:06] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 13:09:12] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 13:28:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 13:57:19] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 13:58:59] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 14:08:44] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 14:12:58] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 14:14:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 14:24:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 14:26:57] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 14:27:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.230.71.93 - - [23/Oct/2024 17:49:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:123.249.75.79 - - [24/Oct/2024 03:04:55] code 400, message Bad request version ('\x95')
+INFO:werkzeug:123.249.75.79 - - [24/Oct/2024 03:04:55] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¾üg\x8c\x8aÒ·X«?¹\x1a\x89\x03)áø\x13GÆb\x1d¿ë\x99jW\x88j\x1f\x95[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:123.249.75.79 - - [24/Oct/2024 03:05:43] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:123.249.75.79 - - [24/Oct/2024 03:05:44] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:83.222.191.74 - - [24/Oct/2024 11:27:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:83.222.191.74 - - [24/Oct/2024 11:27:36] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:162.142.125.193 - - [24/Oct/2024 14:51:31] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.193 - - [24/Oct/2024 14:51:32] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.193 - - [24/Oct/2024 14:51:32] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:werkzeug:79.124.56.202 - - [25/Oct/2024 04:28:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:79.124.56.202 - - [25/Oct/2024 04:28:31] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:83.222.191.74 - - [25/Oct/2024 09:24:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:83.222.191.74 - - [25/Oct/2024 09:24:10] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:38:05] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:38:19] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:41:35] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:42:07] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:49:08] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:49:34] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:51:54] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:55:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 11:56:08] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 12:06:26] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 12:10:14] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [25/Oct/2024 12:10:33] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:208.87.243.131 - - [25/Oct/2024 20:07:54] "[33mGET http://azenv.net/ HTTP/1.1[0m" 404 -
+ERROR:werkzeug:120.46.90.29 - - [25/Oct/2024 23:25:00] code 400, message Bad request version ('´ã·\x90\x12î.ñyt7¹ËPæ\'¥q"\x0e\x01¦6\'')
+INFO:werkzeug:120.46.90.29 - - [25/Oct/2024 23:25:00] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03n\x9bØ,«\x1eP¼h§û9\x93'ñ§G\x08«uÝk:[¢\x80\x03Bb(ñW ´ã·\x90\x12î.ñyt7¹ËPæ'¥q"\x0e\x01¦6'[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:120.46.90.29 - - [25/Oct/2024 23:26:57] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.46.90.29 - - [25/Oct/2024 23:26:58] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:162.142.125.206 - - [26/Oct/2024 00:11:34] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.206 - - [26/Oct/2024 00:11:35] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.206 - - [26/Oct/2024 00:11:35] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:206.168.34.204 - - [26/Oct/2024 00:16:45] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.204 - - [26/Oct/2024 00:16:46] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.204 - - [26/Oct/2024 00:16:46] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:werkzeug:83.222.191.74 - - [26/Oct/2024 03:35:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:83.222.191.74 - - [26/Oct/2024 03:35:14] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:154.201.73.242 - - [26/Oct/2024 09:57:26] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [26/Oct/2024 10:01:48] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [26/Oct/2024 10:06:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:83.222.191.74 - - [27/Oct/2024 03:09:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:83.222.191.74 - - [27/Oct/2024 03:09:49] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:149.88.93.231 - - [27/Oct/2024 11:20:07] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:149.88.93.231 - - [27/Oct/2024 11:20:27] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:149.88.93.231 - - [27/Oct/2024 11:27:08] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:206.168.34.192 - - [27/Oct/2024 16:41:14] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.192 - - [27/Oct/2024 16:41:14] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.192 - - [27/Oct/2024 16:41:14] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 16:53:39] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 17:08:42] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 17:23:16] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 17:36:42] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.120 - - [28/Oct/2024 20:49:48] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.120 - - [28/Oct/2024 20:49:49] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.120 - - [28/Oct/2024 20:49:49] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 21:19:11] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 21:48:28] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 22:28:11] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 22:37:08] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 22:57:12] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [28/Oct/2024 22:59:52] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 00:38:47] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:15:33] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:20:39] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:29:07] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:33:16] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:44:54] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:51:52] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:54:15] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 01:55:38] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 02:00:35] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 02:03:02] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:18:43] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:20:42] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:31:46] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:35:30] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:36:03] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:41:05] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:42:10] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 14:48:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:116.205.116.126 - - [29/Oct/2024 14:53:15] code 400, message Bad request version ('\x95ê¥~h^')
+INFO:werkzeug:116.205.116.126 - - [29/Oct/2024 14:53:15] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x09\x95JÌg+)ÑºyWï\x9cÕÙ\x14ö\x0b\x95ê¥~h^[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:116.205.116.126 - - [29/Oct/2024 14:54:21] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:116.205.116.126 - - [29/Oct/2024 14:54:21] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 15:45:48] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 15:48:58] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:03:21] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:05:20] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:07:59] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:17:29] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:19:24] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:20:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:36:43] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:39:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:40:07] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:45:10] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:45:31] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:162.142.125.34 - - [29/Oct/2024 16:46:58] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:162.142.125.34 - - [29/Oct/2024 16:46:58] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039\x99<}\x9f#\x98*\x15"ñ{Ë\x15Þ^#À>aLE{v\x9c¤æ\x9b\x02eÐT WM\x88Ò\x12x/¾\x9e-\x81 ß¬s\x10G|TÃL\x98\x06'\x0d\x13Ù\x1f\x96EÔó\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:162.142.125.34 - - [29/Oct/2024 16:47:02] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:162.142.125.34 - - [29/Oct/2024 16:47:06] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.34 - - [29/Oct/2024 16:47:07] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.34 - - [29/Oct/2024 16:47:07] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:49:23] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:49:35] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:51:45] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:53:38] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 16:53:49] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:01:13] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:01:27] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:05:30] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:05:43] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:09:50] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:10:02] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:17:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:17:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:24:39] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:24:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:27:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:43:34] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:43:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:48:22] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:51:24] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 17:59:32] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:06:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:18:42] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:19:15] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:22:19] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:25:58] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:27:03] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:29:30] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:30:28] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 18:32:14] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 20:56:05] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:03:09] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:06:08] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:12:30] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:13:01] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:22:41] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:25:51] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:28:22] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:31:20] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:31:55] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:32:03] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:32:08] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 21:58:16] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:01:05] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:01:35] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:02:00] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:05:31] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:13:16] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:30:56] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:34:34] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:48:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:49:08] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 22:52:06] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 23:15:38] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 23:44:45] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [29/Oct/2024 23:45:31] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 00:08:44] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 00:12:37] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 00:13:15] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 00:41:42] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 00:42:06] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 07:45:58] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 07:50:44] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 07:54:37] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 07:57:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 08:01:32] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 08:05:56] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 08:06:23] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [30/Oct/2024 08:10:59] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 10:03:49] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 10:04:42] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 10:05:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 11:52:01] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:24:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:26:13] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:27:06] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:29:29] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:35:45] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:45:58] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:54:29] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 12:57:40] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 13:00:42] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 13:17:23] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 13:47:03] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 13:50:11] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 13:51:37] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:03:20] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:08:06] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:13:34] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:14:01] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:23:27] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:23:43] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:50:23] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:50:36] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:52:31] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:52:40] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.193 - - [30/Oct/2024 14:56:43] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:124.70.63.89 - - [30/Oct/2024 15:35:59] code 400, message Bad request version ("ÏRÍ¾Î,ÇØ&\x9c5Ð3\x93;Óp&öV\x15\x04+\x8a«>5*¶Ô7\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:124.70.63.89 - - [30/Oct/2024 15:35:59] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Å¦:_ëºkä¾§\x88Gß³\x18!\x0b\x96/}byê\x8eÈosÔ% C± \x1eÏRÍ¾Î,ÇØ&\x9c5Ð3\x93;Óp&öV\x15\x04+\x8a«>5*¶Ô7\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:124.70.63.89 - - [30/Oct/2024 15:37:16] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:124.70.63.89 - - [30/Oct/2024 15:37:16] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 17:31:58] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 17:35:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 17:38:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 18:13:46] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 18:13:52] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 18:18:44] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 18:19:29] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 18:19:40] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 19:04:27] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 19:04:33] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 19:09:39] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [30/Oct/2024 19:09:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [31/Oct/2024 00:19:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:162.142.125.205 - - [31/Oct/2024 14:19:15] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.205 - - [31/Oct/2024 14:19:16] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.205 - - [31/Oct/2024 14:19:16] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:156.225.22.186 - - [31/Oct/2024 19:16:50] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [31/Oct/2024 19:17:08] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [31/Oct/2024 19:17:41] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [31/Oct/2024 19:17:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [31/Oct/2024 19:20:43] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [31/Oct/2024 21:33:02] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:121.36.70.64 - - [01/Nov/2024 14:18:36] code 400, message Bad request version ("6Ïàëyå\xadï¥T\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:121.36.70.64 - - [01/Nov/2024 14:18:36] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03q\x9d\x01}&1¡\x87!MÝ)#X¨Ä\x9a7\x0es@¬Ç¨±2,\x95ÊFU\x8c :àÉ\x145ù¢`Eð·J\x05î\x0dG[X£³@\x0d6Ïàëyå­ï¥T\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:121.36.70.64 - - [01/Nov/2024 14:19:25] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:121.36.70.64 - - [01/Nov/2024 14:19:25] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 14:35:45] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 14:38:07] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 14:47:07] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 14:49:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 15:23:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 15:52:00] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 15:53:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 15:55:00] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 15:56:01] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.97 - - [01/Nov/2024 18:37:25] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [01/Nov/2024 21:23:29] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [01/Nov/2024 21:24:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [01/Nov/2024 21:26:02] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:206.168.34.43 - - [02/Nov/2024 00:46:32] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.43 - - [02/Nov/2024 00:46:33] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.43 - - [02/Nov/2024 00:46:33] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:werkzeug:79.124.56.186 - - [02/Nov/2024 01:10:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:79.124.56.186 - - [02/Nov/2024 01:10:10] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:08:45] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:09:27] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:11:36] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:11:47] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:15:33] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:15:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:19:49] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:20:00] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:23:42] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:23:59] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 10:27:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:40:25] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:40:45] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:43:36] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:44:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:48:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:52:10] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:55:49] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:56:39] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 11:57:07] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:02:02] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:03:19] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:03:37] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:03:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:08:42] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:08:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:09:18] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:09:50] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:10:12] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:10:59] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 12:16:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 13:05:26] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 13:05:44] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 13:05:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:17:19] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:17:45] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:18:20] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:18:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:22:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:29:25] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:32:13] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:32:28] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:33:28] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:37:43] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [02/Nov/2024 20:37:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:159.100.19.167 - - [03/Nov/2024 05:58:46] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+INFO:werkzeug:159.100.19.167 - - [03/Nov/2024 05:58:46] "[35m[1mSSH-2.0-OpenSSH[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:206.168.34.47 - - [03/Nov/2024 10:40:10] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.47 - - [03/Nov/2024 10:40:10] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.47 - - [03/Nov/2024 10:40:10] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:156.225.22.186 - - [03/Nov/2024 11:21:15] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [03/Nov/2024 11:22:52] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [03/Nov/2024 11:24:50] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [03/Nov/2024 11:34:20] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [03/Nov/2024 11:35:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [03/Nov/2024 12:08:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [03/Nov/2024 12:37:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:116.205.96.31 - - [04/Nov/2024 00:22:42] code 400, message Bad request version ("Ü\x06\x13çÇ$²äJåúPf×¸8G+2\x14ãLw\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:116.205.96.31 - - [04/Nov/2024 00:22:42] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x98±\x1a\x8b\x13I¡\x7f´\x13x¦\x1d¡r\x16Z(\x96&":t\x0e|Já=aÛái yQ\x0d¼\x93NÝ«\x0bÜ\x06\x13çÇ$²äJåúPf×¸8G+2\x14ãLw\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:116.205.96.31 - - [04/Nov/2024 00:23:45] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:116.205.96.31 - - [04/Nov/2024 00:23:45] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:79.124.56.186 - - [04/Nov/2024 04:50:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:79.124.56.186 - - [04/Nov/2024 04:50:03] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:123.249.105.139 - - [04/Nov/2024 07:15:38] code 400, message Bad request version ('G"Ò\x9aîÊÇà\x08÷\x16í8hT\x02\x91\x11\x17?¸\x9abR_æÁ©k^\x95Ü\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À\'\x00gÀ')
+INFO:werkzeug:123.249.105.139 - - [04/Nov/2024 07:15:38] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03gòL\x17Õ(fuY\x0ep°\x1fR\x06\x10\x1b·\x92CÚ\x94\x93O\x1ahð|¿Ã¹Ð G"Ò\x9aîÊÇà\x08÷\x16í8hT\x02\x91\x11\x17?¸\x9abR_æÁ©k^\x95Ü\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:123.249.105.139 - - [04/Nov/2024 07:15:39] code 400, message Bad request version ("z\x95ÝSÎÏ1Éd\\¯LïÀ¨,\x06é?pO-6\x1a\x12\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:123.249.105.139 - - [04/Nov/2024 07:15:39] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03NQjh½\x97\x0b÷ÿ\x91{ë7\x867ðwG3ù\x96B,9y·Ã\x118®Ëù ^\x04Æ\x88\x0bè\x1fz\x95ÝSÎÏ1Éd\\¯LïÀ¨,\x06é?pO-6\x1a\x12\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:123.249.105.139 - - [04/Nov/2024 07:15:39] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:123.249.105.139 - - [04/Nov/2024 07:15:39] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:123.249.105.139 - - [04/Nov/2024 07:15:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:79.124.56.186 - - [04/Nov/2024 07:32:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:79.124.56.186 - - [04/Nov/2024 07:32:44] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:27.115.124.53 - - [04/Nov/2024 08:04:15] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:120.46.61.94 - - [04/Nov/2024 08:18:51] code 400, message Bad request version ("§8Ux,\x00\x1a`MVÀøÝ°pþan\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:120.46.61.94 - - [04/Nov/2024 08:18:51] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÏÇ\x08^1ÖØ¸Á\x880¥ \x02q^\x15¾\x14\x177\x05\x80\x0e\x8ePRÊbó\x80( \x98Æ~\x19ß\x14:h8\x0eB¼:\x09§8Ux,\x00\x1a`MVÀøÝ°pþan\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:120.46.61.94 - - [04/Nov/2024 08:19:40] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.46.61.94 - - [04/Nov/2024 08:19:40] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:19:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:20:43] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:22:09] "POST /translator HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:22:13] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:23:06] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:23:14] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:24:45] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:24:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:25:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 15:25:42] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [04/Nov/2024 16:31:54] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:223.73.115.121 - - [04/Nov/2024 17:06:30] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:223.73.115.121 - - [04/Nov/2024 17:06:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [04/Nov/2024 17:16:06] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [04/Nov/2024 17:29:24] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [04/Nov/2024 17:30:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [04/Nov/2024 17:33:29] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 19:14:55] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 19:16:33] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 19:25:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 19:26:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 19:29:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 19:30:40] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 19:30:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [04/Nov/2024 20:02:47] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [04/Nov/2024 20:04:37] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [04/Nov/2024 20:07:33] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [04/Nov/2024 20:09:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [04/Nov/2024 20:11:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 21:52:56] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 21:53:11] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 21:57:54] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 21:58:37] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 21:59:26] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 22:02:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 22:03:23] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 22:04:40] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 22:52:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 22:58:15] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [04/Nov/2024 23:00:25] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [04/Nov/2024 23:08:34] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [04/Nov/2024 23:10:10] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:162.142.125.215 - - [05/Nov/2024 05:47:41] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.215 - - [05/Nov/2024 05:47:41] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.215 - - [05/Nov/2024 05:47:41] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:154.201.73.242 - - [05/Nov/2024 08:08:44] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [05/Nov/2024 08:09:19] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [05/Nov/2024 08:14:37] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:31.7.62.234 - - [05/Nov/2024 12:43:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:31.7.62.234 - - [05/Nov/2024 12:43:24] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:223.73.115.121 - - [05/Nov/2024 12:52:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 12:52:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 13:30:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 13:39:52] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 13:40:02] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 13:40:20] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 13:41:27] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 13:42:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 14:00:09] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [05/Nov/2024 14:02:41] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:79.124.56.186 - - [05/Nov/2024 22:12:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:79.124.56.186 - - [05/Nov/2024 22:12:47] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:83.222.190.78 - - [06/Nov/2024 00:45:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:83.222.190.78 - - [06/Nov/2024 00:45:05] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 10:24:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 10:27:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 10:30:54] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [06/Nov/2024 10:33:21] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:156.225.22.186 - - [06/Nov/2024 10:33:45] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 10:37:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 10:40:28] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 10:41:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 10:47:22] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:04:24] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:07:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:11:15] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:17:47] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:26:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:30:23] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [06/Nov/2024 11:30:27] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [06/Nov/2024 11:31:31] "POST /promptor HTTP/1.1" 200 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:33:29] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:40:52] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [06/Nov/2024 11:41:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 11:54:09] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 12:01:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 12:06:09] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 12:07:22] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 12:12:22] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 12:18:32] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 12:24:31] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:223.73.115.121 - - [06/Nov/2024 12:28:00] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [06/Nov/2024 14:39:23] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:120.46.90.29 - - [06/Nov/2024 15:56:17] code 400, message Bad request version ("TÆáçL)ìx\x10\x91\x9f%åI\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:120.46.90.29 - - [06/Nov/2024 15:56:17] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8eY0õÁ.O\x8c\x88Ô¡¾\x1f\x09ÇÖàs}XR\x9bcø!d\x1bÀõ´eY ô-¸T9àý\x96ÛG\x92l]ªZ¨t\x0cTÆáçL)ìx\x10\x91\x9f%åI\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:120.46.90.29 - - [06/Nov/2024 15:57:28] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.46.90.29 - - [06/Nov/2024 15:57:28] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:80.75.212.9 - - [06/Nov/2024 16:38:13] "[33mCONNECT ipv4.google.com:443 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:80.75.212.9 - - [06/Nov/2024 16:38:28] code 400, message Bad request syntax ('\x04\x01\x01»\x00\x00\x00\x01proxychecker\x00ipv4.google.com\x00')
+INFO:werkzeug:80.75.212.9 - - [06/Nov/2024 16:38:28] "[35m[1m\x04\x01\x01»\x00\x00\x00\x01proxychecker\x00ipv4.google.com\x00[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:206.168.34.37 - - [06/Nov/2024 17:35:37] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.37 - - [06/Nov/2024 17:35:38] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.37 - - [06/Nov/2024 17:35:38] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:156.225.22.186 - - [06/Nov/2024 18:54:01] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:79.124.56.186 - - [06/Nov/2024 23:10:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:79.124.56.186 - - [06/Nov/2024 23:10:12] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:83.222.190.78 - - [07/Nov/2024 03:39:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:83.222.190.78 - - [07/Nov/2024 03:39:51] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:141.255.167.50 - - [07/Nov/2024 14:10:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:141.255.167.50 - - [07/Nov/2024 14:10:30] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:206.168.34.212 - - [07/Nov/2024 22:20:17] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.212 - - [07/Nov/2024 22:20:18] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.212 - - [07/Nov/2024 22:20:18] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:154.201.73.242 - - [08/Nov/2024 12:27:45] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:120.46.90.29 - - [08/Nov/2024 15:56:20] code 400, message Bad request version ("¢öÁ\x84\x87ýbï\x84m\x93ì\x92\x1a\x9c´:WÆûwÜe\x86»kÑ.\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:120.46.90.29 - - [08/Nov/2024 15:56:20] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03YWÌ\x7f\x8dÙ\x0b)vü\x86sGNéÞY\x90ñÿ4äK\x8b\x0f\x93+"\x9c\x06ë^ \x8eþH ¢öÁ\x84\x87ýbï\x84m\x93ì\x92\x1a\x9c´:WÆûwÜe\x86»kÑ.\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:120.46.90.29 - - [08/Nov/2024 15:57:42] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.46.90.29 - - [08/Nov/2024 15:57:42] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 16:21:10] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 16:22:47] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 16:23:25] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 16:29:40] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 16:46:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 17:10:40] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 17:13:14] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 17:13:49] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 17:18:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 18:15:31] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 18:18:42] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 18:21:24] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 18:26:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 21:11:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [08/Nov/2024 21:15:30] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 21:23:30] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 21:29:59] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 21:31:44] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 21:33:33] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 21:49:07] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 21:50:50] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 22:08:42] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 22:09:15] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 22:10:18] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [08/Nov/2024 22:11:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 10:21:47] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:206.168.34.212 - - [09/Nov/2024 10:42:25] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.212 - - [09/Nov/2024 10:42:26] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.212 - - [09/Nov/2024 10:42:26] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 10:53:13] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 10:58:08] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 10:58:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 11:09:02] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 11:09:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 11:13:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 11:17:24] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 11:27:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 13:57:11] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:22:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:51:03] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:51:27] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:51:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:52:13] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:52:33] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:52:58] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:53:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:53:43] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [09/Nov/2024 14:54:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 16:30:10] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 16:32:19] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 16:33:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 16:34:18] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:22:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:23:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:25:09] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:26:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:27:14] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:27:49] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:28:22] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:29:04] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:29:35] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:31:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:31:35] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:32:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 20:33:44] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [09/Nov/2024 21:53:55] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [09/Nov/2024 21:55:58] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [09/Nov/2024 21:58:45] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [09/Nov/2024 21:59:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [09/Nov/2024 22:00:59] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:156.225.22.186 - - [09/Nov/2024 22:02:09] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:24:57] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:25:28] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:25:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:26:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:27:25] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:28:29] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:29:35] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:30:34] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:31:14] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:33:14] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:36:38] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:39:03] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [09/Nov/2024 22:41:21] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+ERROR:werkzeug:1.92.150.19 - - [10/Nov/2024 01:02:56] code 400, message Bad request version ("\x19¯\x91\x88:\x16÷\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+INFO:werkzeug:1.92.150.19 - - [10/Nov/2024 01:02:56] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03·°\x83­< \x10\x92pÐN0\x91<8Þ \x8a7Ôñ;C\x8c\x9b#ª\x92M\x8cCÇ \x13ðgú©\x92H÷\x01s\x94Üú^\x0cd \x1cx\x01\x8cJt\x82\x85\x19¯\x91\x88:\x16÷\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:1.92.150.19 - - [10/Nov/2024 01:03:47] "[33mHEAD / HTTP/1.1[0m" 404 -
+INFO:werkzeug:1.92.150.19 - - [10/Nov/2024 01:03:47] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:31:56] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:32:30] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:33:55] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:34:23] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:34:50] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:35:19] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:39:35] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:40:05] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [10/Nov/2024 22:40:39] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:162.142.125.194 - - [11/Nov/2024 05:19:00] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.194 - - [11/Nov/2024 05:19:01] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.194 - - [11/Nov/2024 05:19:01] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 08:59:02] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:03:18] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:03:29] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:04:43] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:05:34] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:05:43] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:06:31] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:12:30] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:17:15] "POST /facebbox HTTP/1.1" 200 -
+INFO:werkzeug:154.201.73.242 - - [11/Nov/2024 09:17:23] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [11/Nov/2024 11:19:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [11/Nov/2024 13:19:46] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [11/Nov/2024 13:20:16] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [11/Nov/2024 13:56:48] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:120.239.72.187 - - [11/Nov/2024 13:57:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [11/Nov/2024 14:22:51] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [11/Nov/2024 14:23:17] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [11/Nov/2024 14:25:24] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
+INFO:werkzeug:43.156.249.58 - - [11/Nov/2024 14:25:53] "[35m[1mPOST /submit_task HTTP/1.1[0m" 202 -
