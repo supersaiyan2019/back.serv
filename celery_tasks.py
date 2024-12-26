@@ -18,11 +18,11 @@ app = Celery('tasks', broker='redis://localhost:6379/0', backend='redis://localh
 # 数据库连接函数
 def get_db_connection():
     return mysql.connector.connect(
-        host="116.205.226.156",
-        port=9987,
-        user="sride",
-        password="sride2024",
-        database="sride"
+        host="1.2.3.4",
+        port=3306,
+        user="user",
+        password="passwd",
+        database="db"
     )
 
 # 更新任务状态的函数
