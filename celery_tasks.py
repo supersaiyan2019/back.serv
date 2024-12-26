@@ -5,6 +5,11 @@ import requests
 import logging
 from datetime import datetime, timedelta
 from celery.schedules import crontab
+import os
+from dotenv import load_dotenv
+
+# 加载环境变量
+load_dotenv()
 
 # 设置日志
 logging.basicConfig(level=logging.INFO)
@@ -13,16 +18,18 @@ logger = logging.getLogger(__name__)
 # celery -A celery_tasks worker --loglevel=info
 
 # 创建Celery应用
-app = Celery('tasks', broker='redis://localhost:6379/0', backend='redis://localhost:6379/1')
+app = Celery('tasks', 
+             broker=f"redis://{os.getenv('REDIS_HOST', 'localhost')}:{os.getenv('REDIS_PORT', 6379)}/{os.getenv('REDIS_DB_BROKER', 0)}", 
+             backend=f"redis://{os.getenv('REDIS_HOST', 'localhost')}:{os.getenv('REDIS_PORT', 6379)}/{os.getenv('REDIS_DB_BACKEND', 1)}")
 
 # 数据库连接函数
 def get_db_connection():
     return mysql.connector.connect(
-        host="1.2.3.4",
-        port=3306,
-        user="user",
-        password="passwd",
-        database="db"
+        host=os.getenv('DB_HOST'),
+        port=int(os.getenv('DB_PORT')),
+        user=os.getenv('DB_USER'),
+        password=os.getenv('DB_PASSWORD'),
+        database=os.getenv('DB_NAME')
     )
 
 # 更新任务状态的函数
@@ -114,14 +121,14 @@ app.conf.beat_schedule = {
 }
 
 def get_server_status(serv_name):
-    ai_server_status = requests.get("http://172.23.0.99:10897/check_status").json()
+    ai_server_status = requests.get(f"{os.getenv('AI_SERVER_URL')}{os.getenv('AI_SERVER_STATUS_ENDPOINT')}").json()
     for server in ai_server_status:
         if server['serv_name'] == serv_name:
             return server['serv_status']
     return 'unknown'
 
 def get_available_server(exclude=[]):
-    ai_server_status = requests.get("http://172.23.0.99:10897/check_status").json()
+    ai_server_status = requests.get(f"{os.getenv('AI_SERVER_URL')}{os.getenv('AI_SERVER_STATUS_ENDPOINT')}").json()
     available_servers = [server['serv_name'] for server in ai_server_status if server['serv_status'] == 'online' and server['serv_name'] not in exclude]
     
     return available_servers[0] if available_servers else None
@@ -140,9 +147,10 @@ def is_server_busy(serv_name):
     cursor.close()
     conn.close()
     
-    return count > 0
+    return count > int(os.getenv('SERVER_BUSY_THRESHOLD', 10))
 
-AI_SERVER_URL = "http://172.23.0.99:10897"
+# 使用环境变量
+AI_SERVER_URL = os.getenv('AI_SERVER_URL')
 
 def check_and_switch_server(ticket_id, original_serv_name):
     """
@@ -222,7 +230,7 @@ def image_creation(self, task_params, user_id, serv_name):
         task_params['serv_name'] = serv_name
         
         # 调用AI服务器API
-        response = requests.post(AI_SERVER_URL+'/image_creation', json=task_params, timeout=300)
+        response = requests.post(f"{AI_SERVER_URL}/image_creation", json=task_params, timeout=300)
         response.raise_for_status()
         
         # 解析返回的文件列表
@@ -260,7 +268,7 @@ def image_upscale(self, task_params, user_id, serv_name):
         task_params['serv_name'] = serv_name
 
         # 调用AI服务器API
-        response = requests.post(AI_SERVER_URL + '/image_upscale', json=task_params, timeout=300)
+        response = requests.post(f"{AI_SERVER_URL}/image_upscale", json=task_params, timeout=300)
         response.raise_for_status()
 
         # 解析返回的文件列表
@@ -298,7 +306,7 @@ def face_swap(self, task_params, user_id, serv_name):
         task_params['serv_name'] = serv_name
 
         # 调用AI服务器API
-        response = requests.post(AI_SERVER_URL + '/face_swap', json=task_params, timeout=300)
+        response = requests.post(f"{AI_SERVER_URL}/face_swap", json=task_params, timeout=300)
         response.raise_for_status()
 
         # 解析返回的文件列表
@@ -377,3 +385,16 @@ app.conf.beat_schedule['process-task-queue-every-minute'] = {
     'task': 'celery_tasks.process_task_queue',
     'schedule': crontab(minute='*'),
 }
+
+# 配置Celery
+app.conf.update(
+    task_serializer='json',
+    accept_content=['json'],
+    result_serializer='json',
+    timezone='UTC',
+    enable_utc=True,
+    task_track_started=True,
+    task_time_limit=int(os.getenv('TASK_TIMEOUT_SECONDS', 300)),
+    worker_max_tasks_per_child=int(os.getenv('WORKER_MAX_TASKS', 100)),
+    broker_connection_retry_on_startup=True
+)

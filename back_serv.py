@@ -7,20 +7,28 @@ import mysql.connector
 import requests
 from datetime import datetime, timedelta
 import logging
+import os
+from dotenv import load_dotenv
+
+# 加载环境变量
+load_dotenv()
 
 # 设置日志
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    level=os.getenv('LOG_LEVEL', 'INFO'),
+    format=os.getenv('LOG_FORMAT', '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+)
 logger = logging.getLogger(__name__)
 
 flask_app = Flask(__name__)
 
 def get_db_connection():
     return mysql.connector.connect(
-        host="116.205.226.156",
-        port=9987,
-        user="sride",
-        password="sride2024",
-        database="sride"
+        host=os.getenv('DB_HOST'),
+        port=int(os.getenv('DB_PORT')),
+        user=os.getenv('DB_USER'),
+        password=os.getenv('DB_PASSWORD'),
+        database=os.getenv('DB_NAME')
     )
 
 def get_server_load():
@@ -35,7 +43,7 @@ def get_server_load():
     GROUP BY serv_name
     """
     
-    timeout_threshold = datetime.now() - timedelta(seconds=300)
+    timeout_threshold = datetime.now() - timedelta(seconds=int(os.getenv('TASK_TIMEOUT_SECONDS', 300)))
     cursor.execute(query, (timeout_threshold,))
     server_loads = {row['serv_name']: row for row in cursor.fetchall()}
     
@@ -46,7 +54,7 @@ def get_server_load():
 
 def get_available_server():
     server_loads = get_server_load()
-    ai_server_status = requests.get("http://172.23.0.99:10897/check_status").json()
+    ai_server_status = requests.get(f"{os.getenv('AI_SERVER_URL')}{os.getenv('AI_SERVER_STATUS_ENDPOINT')}").json()
     
     available_servers = [server['serv_name'] for server in ai_server_status if server['serv_status'] == 'online']
     
@@ -159,15 +167,10 @@ def trigger_process_queue():
     process_task_queue.delay()
     return jsonify({"message": "队列处理已触发"}), 202
 
-# 在文件顶部添加以下导入
-import requests
+DIFY_URL = os.getenv('DIFY_URL')
+TRANSLATOR_API_KEY = os.getenv('TRANSLATOR_API_KEY')
+PROMPTOR_API_KEY = os.getenv('PROMPTOR_API_KEY')
 
-# 在现有常量定义后添加以下常量
-DIFY_URL = "http://172.23.0.99/v1"
-TRANSLATOR_API_KEY = "app-zmn4xhQ0jIVvk4kaqG3o7Mge"
-PROMPTOR_API_KEY = "app-21p8neH6raVa9FOE9jGKMYBe"
-
-# 添加以下两个函数
 def call_dify_service(prompt_text, api_key):
     request_body = {
         "inputs": {
@@ -191,7 +194,6 @@ def call_dify_service(prompt_text, api_key):
     else:
         raise Exception(f"AI服务请求失败，状态码：{response.status_code}，错误信息：{response.text}")
 
-# 添加以下两个新的API端点
 @flask_app.route('/translator', methods=['POST'])
 def translator_service():
     try:
@@ -220,25 +222,24 @@ def promptor_service():
         logger.error(f"提示词服务失败: {str(e)}")
         return jsonify({"error": str(e)}), 500
 
-
 @flask_app.route('/facebbox', methods=['POST'])
 def face_bbox():
-    try:
-        data = request.json
-        r2_image_name = data.get('r2_image_name')
-        if not r2_image_name:
-            return jsonify({"error": "缺少r2_image_name参数"}), 400
-
-        url = "http://172.23.0.99:10897/face_bbox"
-        headers = {'Content-Type': 'application/json'}
-        payload = {
-            'r2_image_name': r2_image_name
-        }
-        response = requests.post(url, data=json.dumps(payload), headers=headers)
-        return jsonify({"result": response.json()}), 200
-    except Exception as e:
-        logger.error(f"face bbox服务失败: {str(e)}")
-        return jsonify({"error": str(e)}), 500
+    if request.method == 'POST':
+        try:
+            image_data = request.files['image']
+            response = requests.post(
+                f"{os.getenv('AI_SERVER_URL')}{os.getenv('FACE_BBOX_ENDPOINT')}",
+                files={'image': image_data}
+            )
+            return jsonify(response.json())
+        except Exception as e:
+            logger.error(f"Error in face_bbox: {str(e)}")
+            return jsonify({'error': str(e)}), 500
+    return jsonify({'error': 'Method not allowed'}), 405
 
 if __name__ == '__main__':
-    flask_app.run(debug=True, port=4093, host='0.0.0.0')
+    flask_app.run(
+        debug=os.getenv('FLASK_DEBUG', '0') == '1',
+        port=int(os.getenv('FLASK_PORT', 4093)),
+        host=os.getenv('FLASK_HOST', '0.0.0.0')
+    )
